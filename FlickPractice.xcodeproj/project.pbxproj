@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1293088CBB2990EC6A19FECF /* Pods_FlickPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292ED65964EF1E6A8C08881F /* Pods_FlickPractice.framework */; };
 		720898A9247B97E300B9284D /* SlideImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720898A8247B97E300B9284D /* SlideImage.swift */; };
 		723A335124740E0F0052A26A /* UiDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A335024740E0F0052A26A /* UiDrawing.swift */; };
 		723AA236247B9F8000964AE6 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723AA235247B9F8000964AE6 /* Util.swift */; };
@@ -17,10 +18,11 @@
 		72B39DE824726B8B00848C2A /* StartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B39DE724726B8B00848C2A /* StartController.swift */; };
 		72B39DED24726B8C00848C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B39DEC24726B8C00848C2A /* Assets.xcassets */; };
 		72B39DF024726B8C00848C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B39DEE24726B8C00848C2A /* LaunchScreen.storyboard */; };
-		E1B5AAB9302AB16F93407E23 /* Pods_FlickPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1652D73BA25595BD082C882 /* Pods_FlickPractice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		292ED65964EF1E6A8C08881F /* Pods_FlickPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlickPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30518C4758C15B357D762061 /* Pods-FlickPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickPractice.debug.xcconfig"; path = "Target Support Files/Pods-FlickPractice/Pods-FlickPractice.debug.xcconfig"; sourceTree = "<group>"; };
 		720898A8247B97E300B9284D /* SlideImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideImage.swift; sourceTree = "<group>"; };
 		723A335024740E0F0052A26A /* UiDrawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiDrawing.swift; sourceTree = "<group>"; };
 		723AA235247B9F8000964AE6 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
@@ -33,9 +35,7 @@
 		72B39DEC24726B8C00848C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72B39DEF24726B8C00848C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72B39DF124726B8C00848C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97C9439B392B87FB5CC9A463 /* Pods-FlickPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickPractice.release.xcconfig"; path = "Target Support Files/Pods-FlickPractice/Pods-FlickPractice.release.xcconfig"; sourceTree = "<group>"; };
-		D74FA57FF1067A62EB68F45C /* Pods-FlickPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickPractice.debug.xcconfig"; path = "Target Support Files/Pods-FlickPractice/Pods-FlickPractice.debug.xcconfig"; sourceTree = "<group>"; };
-		E1652D73BA25595BD082C882 /* Pods_FlickPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlickPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD60BD04FE5DE523515A6332 /* Pods-FlickPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickPractice.release.xcconfig"; path = "Target Support Files/Pods-FlickPractice/Pods-FlickPractice.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,21 +43,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1B5AAB9302AB16F93407E23 /* Pods_FlickPractice.framework in Frameworks */,
+				1293088CBB2990EC6A19FECF /* Pods_FlickPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D1669391FADBC5D4953C3D3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E1652D73BA25595BD082C882 /* Pods_FlickPractice.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		72B39DD724726B8A00848C2A = {
 			isa = PBXGroup;
 			children = (
@@ -65,7 +57,7 @@
 				72B39DE224726B8A00848C2A /* FlickPractice */,
 				72B39DE124726B8A00848C2A /* Products */,
 				BD527104C0A177EF724803F0 /* Pods */,
-				0D1669391FADBC5D4953C3D3 /* Frameworks */,
+				BCE39A23C8966E9C9398F0D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,11 +86,19 @@
 			path = FlickPractice;
 			sourceTree = "<group>";
 		};
+		BCE39A23C8966E9C9398F0D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				292ED65964EF1E6A8C08881F /* Pods_FlickPractice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BD527104C0A177EF724803F0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D74FA57FF1067A62EB68F45C /* Pods-FlickPractice.debug.xcconfig */,
-				97C9439B392B87FB5CC9A463 /* Pods-FlickPractice.release.xcconfig */,
+				30518C4758C15B357D762061 /* Pods-FlickPractice.debug.xcconfig */,
+				CD60BD04FE5DE523515A6332 /* Pods-FlickPractice.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -110,12 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72B39DF424726B8C00848C2A /* Build configuration list for PBXNativeTarget "FlickPractice" */;
 			buildPhases = (
-				47C8BCF2BB342E254633566B /* [CP] Check Pods Manifest.lock */,
+				7D3CF48BFF40C78E88FF2C92 /* [CP] Check Pods Manifest.lock */,
 				72B39DDC24726B8A00848C2A /* Sources */,
 				72B39DDD24726B8A00848C2A /* Frameworks */,
 				72B39DDE24726B8A00848C2A /* Resources */,
 				723AF639247273D1003FB225 /* ShellScript */,
-				E2885FFAD1D832BEB647F4DD /* [CP] Embed Pods Frameworks */,
+				6FDE9E645DAA46DFD3DC6C08 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -173,26 +173,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		47C8BCF2BB342E254633566B /* [CP] Check Pods Manifest.lock */ = {
+		6FDE9E645DAA46DFD3DC6C08 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlickPractice/Pods-FlickPractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FlickPractice-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-FlickPractice/Pods-FlickPractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlickPractice/Pods-FlickPractice-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		723AF639247273D1003FB225 /* ShellScript */ = {
@@ -212,21 +207,26 @@
 			shellPath = /bin/sh;
 			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n";
 		};
-		E2885FFAD1D832BEB647F4DD /* [CP] Embed Pods Frameworks */ = {
+		7D3CF48BFF40C78E88FF2C92 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlickPractice/Pods-FlickPractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlickPractice/Pods-FlickPractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlickPractice-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlickPractice/Pods-FlickPractice-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -376,7 +376,7 @@
 		};
 		72B39DF524726B8C00848C2A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D74FA57FF1067A62EB68F45C /* Pods-FlickPractice.debug.xcconfig */;
+			baseConfigurationReference = 30518C4758C15B357D762061 /* Pods-FlickPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,7 +394,7 @@
 		};
 		72B39DF624726B8C00848C2A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97C9439B392B87FB5CC9A463 /* Pods-FlickPractice.release.xcconfig */;
+			baseConfigurationReference = CD60BD04FE5DE523515A6332 /* Pods-FlickPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

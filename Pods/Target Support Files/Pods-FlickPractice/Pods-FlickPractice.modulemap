@@ -1,0 +1,6 @@
+framework module Pods_FlickPractice {
+  umbrella header "Pods-FlickPractice-umbrella.h"
+
+  export *
+  module * { export * }
+}
